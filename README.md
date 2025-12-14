@@ -10,7 +10,7 @@
 ## Báo cáo kết quả
 1. Tải mã nguồn từ repository.
     ```bash
-    git clone <đường dẫn tới repo>
+    git clone https://github.com/truongcongchuong/BTL.git
     ```
 
 2. Cài đặt các dependencies:
@@ -29,7 +29,7 @@
     flutter test
     ```
 8. Screenshots hoặc video demo về ứng dụng và quá trình kiểm thử tự động.
-
+- link video demo: https://drive.google.com/drive/folders/1mjUlvgKlfnfmjoFtBfKiSPPJ5Cqi0bTn
 ## Yêu cầu nộp bài
 - **Source code**: Đẩy toàn bộ mã nguồn lên GitHub repository cá nhân và chia sẻ quyền truy cập.
 - **Kiểm thử tự động**: Sinh viên cần viết các bài kiểm thử tự động cho ứng dụng. Các bài kiểm thử cần được tổ chức rõ ràng và dễ hiểu trong thư mục `test` với hậu tố `_test.dart`. Các bài kiểm thử đơn vị (unit test) cần kiểm tra các chức năng cơ bản của ứng dụng và đảm bảo chất lượng mã nguồn. Kiểm thử UI (widget test) cần được viết để kiểm tra giao diện người dùng và các tương tác người dùng cơ bản.
@@ -81,4 +81,4 @@
 - **9/10**: Hoàn thiện kiểm thử CRUD, trạng thái, tích hợp API/CSDL; UI thân thiện.
 - **10/10**: Tối ưu hóa hoàn chỉnh, UI/UX mượt mà, CI/CD đầy đủ và ổn định.
 
-## Tự đánh giá điểm: X/10
+## Tự đánh giá điểm: 4.5/10

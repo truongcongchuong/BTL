@@ -1,0 +1,22 @@
+{
+  "calendar": "Calendar",
+  "searchEvent": "Search Event",
+  "addEvent": "Add Event",
+  "detailEvent": "Detail event",
+  "dayView": "Day View",
+  "weekView": "Week View",
+  "monthView": "Month View",
+  "workWeek":"Work week",
+  "save": "Save",
+  "delete": "Delete",
+  "search": "Search",
+  "none": "No Loop",
+  "dayly": "Dayly",
+  "weekly": "Weekly",
+  "monthly": "Monthly",
+  "yearly": "Yearly",
+  "nameEvent": "Name event",
+  "start": "Start",
+  "choose": "Choose",
+  "end": "End"
+}

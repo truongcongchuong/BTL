@@ -1,0 +1,22 @@
+{
+  "calendar": "Lịch",
+  "searchEvent": "Tìm kiếm sự kiện",
+  "addEvent": "Thêm sự kiện",
+  "detailEvent": "Chi tiết sự kiện",
+  "dayView": "Ngày",
+  "weekView": "Tuần",
+  "monthView": "Tháng",
+  "workWeek":"Ngày làm việc",
+  "save": "Lưu",
+  "delete": "Xóa",
+  "search": "Tìm kiếm",
+  "none": "không lặp",
+  "dayly": "Hằng ngày",
+  "weekly": "Hằng tuần",
+  "monthly": "Hằng tháng",
+  "yearly": "Hằng năm",
+  "nameEvent": "Tên sự kiện",
+  "start": "Bắt đầu",
+  "choose": "Chọn",
+  "end": "Kết thúc"
+}

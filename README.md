@@ -22,23 +22,18 @@
    flutter run
    ```
 4. Kiểm tra ứng dụng trên thiết bị hoặc máy ảo.
-5. Đăng nhập hoặc tạo tài khoản mới (nếu cần).
-6. Thực hiện các thao tác CRUD và kiểm tra kết quả.
-7. Thực hiện kiểm thử tự động và xem kết quả:
+5. Thực hiện các thao tác CRUD và kiểm tra kết quả.
+- link video demo: https://drive.google.com/drive/folders/1mjUlvgKlfnfmjoFtBfKiSPPJ5Cqi0bTn
+6. Thực hiện kiểm thử tự động và xem kết quả:
     ```bash
     flutter test
     ```
-8. Screenshots hoặc video demo về ứng dụng và quá trình kiểm thử tự động.
-- link video demo: https://drive.google.com/drive/folders/1mjUlvgKlfnfmjoFtBfKiSPPJ5Cqi0bTn
-## Yêu cầu nộp bài
-- **Source code**: Đẩy toàn bộ mã nguồn lên GitHub repository cá nhân và chia sẻ quyền truy cập.
-- **Kiểm thử tự động**: Sinh viên cần viết các bài kiểm thử tự động cho ứng dụng. Các bài kiểm thử cần được tổ chức rõ ràng và dễ hiểu trong thư mục `test` với hậu tố `_test.dart`. Các bài kiểm thử đơn vị (unit test) cần kiểm tra các chức năng cơ bản của ứng dụng và đảm bảo chất lượng mã nguồn. Kiểm thử UI (widget test) cần được viết để kiểm tra giao diện người dùng và các tương tác người dùng cơ bản.
-- **Các video demo**: 
-  - Quá trình kiểm thử tự động bao gồm kiểm thử đơn vị và kiểm thử UI (bắt buộc).
-  - Trình bày các chức năng chính của ứng dụng (bắt buộc).
-  Các video cần biên tập sao cho rõ ràng, dễ hiểu và không quá dài (tối đa 5 phút).
-- **Báo cáo kết quả**: Đây là nội dung báo cáo của bài tập lớn. Sinh viên cần viết báo cáo ngắn mô tả quá trình phát triển, các thư viện đã sử dụng và các kiểm thử đã thực hiện. Có thể viết trực tiếp trên file README.md này ở mục `Báo cáo kết quả`.
-- **GitHub Actions**: Thiết lập GitHub Actions để chạy kiểm thử tự động khi có thay đổi mã nguồn. Tệp cấu hình workflow cần được đặt trong thư mục `.github/workflows`, đặt tên tệp theo định dạng `ci.yml` (có trong mẫu của bài tập lớn). Github Actions cần chạy thành công và không có lỗi nếu mã nguồn không có vấn đề. Trong trường hợp có lỗi, sinh viên cần sửa lỗi và cập nhật mã nguồn để build thành công. Nếu lỗi liên quan đến `Billing & plans`, sinh viên cần thông báo cho giảng viên để được hỗ trợ hoặc bỏ qua yêu cầu này.
+  - kết quả 
+   !["kết quả kiểm thử GRUD"](img/test.png)
+7. các thư viện sử dụng
+- intl: ^0.20.2: thư viện để làm đa ngôn ngữ
+- localstore: ^1.4.0: Thư viện lưu trữ dữ liệu cục bộ (local storage) dạng NoSQL
+- syncfusion_flutter_calendar: ^28.1.38: Thư viện Calendar chuyên nghiệp của Syncfusio
 
 ## Tiêu chí đánh giá
 **5/10 điểm - Build thành công (GitHub Actions báo “Success”)**
@@ -81,4 +76,4 @@
 - **9/10**: Hoàn thiện kiểm thử CRUD, trạng thái, tích hợp API/CSDL; UI thân thiện.
 - **10/10**: Tối ưu hóa hoàn chỉnh, UI/UX mượt mà, CI/CD đầy đủ và ổn định.
 
-## Tự đánh giá điểm: 4.5/10
+## Tự đánh giá điểm: 6/10
